@@ -1,0 +1,171 @@
+body {
+    background-color: #add8e6;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    color: #f092a0; 
+}
+
+header h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin: 0.5em 0;
+}
+
+main {
+    text-align: center;
+    max-width: 600px;
+    padding: 1em;
+}
+
+button#iniciar {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+#iniciar:hover {
+    background-color: #ff7f9e;
+}
+
+ button {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+
+.alimento {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.rosquinha {
+    background-image: url('img/rosquinha.png');
+}
+
+.torta {
+    background-image: url('img/torta.png');
+}
+
+.algodao{
+    background-image: url('img/algodao-doce.png');
+}
+.sorvete{
+
+    background-image: url('img/sorvete-de-casquinha.png');
+}
+
+.podre {
+    background-image: url('img/podre.png'); 
+    
+}
+
+.comida {
+    background-image: url('img/comida-estragada.png'); 
+   
+}
+
+.chaleira {
+    background-image: url('img/chaleira.png'); 
+    
+}
+
+#container {
+    position: relative;
+    width: 800px;
+    height: 700px;
+    overflow: hidden;
+    border: 3px solid #333;
+    background-color: #fff; 
+}
+
+/* Cesta */
+#cesta {
+    position: absolute;
+    bottom: 10px;
+    left: 360px; 
+    width: 80px;
+    height: 50px;
+    background-image: url('img/cesta-de-piquenique.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.doce {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#ganhou {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 100; /* Certifica-se de que está acima de outros elementos */
+    color: #fff;
+}
+
+#ganhou h1 {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+#ganhou h4 {
+    
+
+
+#proximoNivel {
+    background-color: #ffb6c1;
+    border: none;
+    padding: 15px 30px;
+    font-size: 1.5rem;
+    color: #ffffff;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+#proximoNivel:hover {
+    background-color: #ff7f9e;
+}
+
+.item {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-size: cover;
+    background-position: center;
+}
+footer {
+    background-color: #add8e6; 
+    color: white; 
+    text-align: center; 
+    padding: 10px; 
+}
