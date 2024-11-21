@@ -124,12 +124,12 @@ button#iniciar {
     left: 0;
     width: 100vw;
     height: 100vh;
-    background-color: rgba(0, 0, 0, 0.7); /* Fundo semitransparente */
+    background-color: rgba(0, 0, 0, 0.7); 
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    z-index: 100; /* Certifica-se de que está acima de outros elementos */
+    z-index: 100; 
     color: #fff;
 }
 
@@ -137,9 +137,6 @@ button#iniciar {
     font-size: 3rem;
     margin-bottom: 20px;
 }
-#ganhou h4 {
-    
-
 
 #proximoNivel {
     background-color: #ffb6c1;
